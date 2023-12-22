@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62BEBB122B34F577005AC0CF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB112B34F577005AC0CF /* main.swift */; };
+		62BEBB192B34F6F6005AC0CF /* TwoCityScheduling(1029).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB182B34F6F6005AC0CF /* TwoCityScheduling(1029).swift */; };
+		62BEBB1B2B34F73E005AC0CF /* PartitionLabels(763).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB1A2B34F73E005AC0CF /* PartitionLabels(763).swift */; };
+		62BEBB1D2B34F7AA005AC0CF /* CourseSchedule(207).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB1C2B34F7AA005AC0CF /* CourseSchedule(207).swift */; };
+		62BEBB1F2B34F7EC005AC0CF /* CourseScheduleII(210).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB1E2B34F7EC005AC0CF /* CourseScheduleII(210).swift */; };
+		62BEBB212B34F817005AC0CF /* FloodFill(733).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB202B34F817005AC0CF /* FloodFill(733).swift */; };
+		62BEBB232B34FB48005AC0CF /* TwoSum(1).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB222B34FB48005AC0CF /* TwoSum(1).swift */; };
+		62BEBB252B34FCBF005AC0CF /* PalindromeNumber(9).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB242B34FCBF005AC0CF /* PalindromeNumber(9).swift */; };
+		62BEBB272B34FE92005AC0CF /* LongestCommonPrefix(14).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB262B34FE92005AC0CF /* LongestCommonPrefix(14).swift */; };
+		62BEBB292B352D57005AC0CF /* ValidParentheses(20).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB282B352D57005AC0CF /* ValidParentheses(20).swift */; };
+		62BEBB2B2B35334E005AC0CF /* RemoveDuplicates(26).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB2A2B35334E005AC0CF /* RemoveDuplicates(26).swift */; };
+		62BEBB2D2B353939005AC0CF /* RemoveElement(27).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB2C2B353939005AC0CF /* RemoveElement(27).swift */; };
+		62BEBB2F2B353A7D005AC0CF /* FirstOcurrenceInString(28).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB2E2B353A7D005AC0CF /* FirstOcurrenceInString(28).swift */; };
+		62BEBB312B353D04005AC0CF /* LengthOfLastWord(58).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB302B353D04005AC0CF /* LengthOfLastWord(58).swift */; };
+		62BEBB332B354204005AC0CF /* PlusOne(66).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB322B354204005AC0CF /* PlusOne(66).swift */; };
+		62BEBB352B35479F005AC0CF /* MergeSortedArray(88).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB342B35479F005AC0CF /* MergeSortedArray(88).swift */; };
+		62BEBB372B35561C005AC0CF /* SingleNumber(136).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB362B35561C005AC0CF /* SingleNumber(136).swift */; };
+		62BEBB392B355735005AC0CF /* AddDigits(258).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB382B355735005AC0CF /* AddDigits(258).swift */; };
+		62BEBB3B2B355BC7005AC0CF /* ValidAnagram(242).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB3A2B355BC7005AC0CF /* ValidAnagram(242).swift */; };
+		62BEBB3D2B355C7A005AC0CF /* ReverseString(344).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB3C2B355C7A005AC0CF /* ReverseString(344).swift */; };
+		62BEBB3F2B356085005AC0CF /* DetectCapital(520).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB3E2B356085005AC0CF /* DetectCapital(520).swift */; };
+		62BEBB602B357C69005AC0CF /* GoatLatin(824).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB5F2B357C69005AC0CF /* GoatLatin(824).swift */; };
+		62BEBB622B358122005AC0CF /* AddToArray(989).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB612B358122005AC0CF /* AddToArray(989).swift */; };
+		62BEBB642B35851D005AC0CF /* ConsecutiveCharacters(1446).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB632B35851D005AC0CF /* ConsecutiveCharacters(1446).swift */; };
+		62BEBB662B35889D005AC0CF /* WordAsAPrefix(1455).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB652B35889D005AC0CF /* WordAsAPrefix(1455).swift */; };
+		62BEBB682B3589E2005AC0CF /* CountWordsWithPrefix(2185).swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEBB672B3589E2005AC0CF /* CountWordsWithPrefix(2185).swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62BEBB0C2B34F577005AC0CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62BEBB0E2B34F577005AC0CF /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BEBB112B34F577005AC0CF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		62BEBB182B34F6F6005AC0CF /* TwoCityScheduling(1029).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwoCityScheduling(1029).swift"; sourceTree = "<group>"; };
+		62BEBB1A2B34F73E005AC0CF /* PartitionLabels(763).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PartitionLabels(763).swift"; sourceTree = "<group>"; };
+		62BEBB1C2B34F7AA005AC0CF /* CourseSchedule(207).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSchedule(207).swift"; sourceTree = "<group>"; };
+		62BEBB1E2B34F7EC005AC0CF /* CourseScheduleII(210).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseScheduleII(210).swift"; sourceTree = "<group>"; };
+		62BEBB202B34F817005AC0CF /* FloodFill(733).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloodFill(733).swift"; sourceTree = "<group>"; };
+		62BEBB222B34FB48005AC0CF /* TwoSum(1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwoSum(1).swift"; sourceTree = "<group>"; };
+		62BEBB242B34FCBF005AC0CF /* PalindromeNumber(9).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PalindromeNumber(9).swift"; sourceTree = "<group>"; };
+		62BEBB262B34FE92005AC0CF /* LongestCommonPrefix(14).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestCommonPrefix(14).swift"; sourceTree = "<group>"; };
+		62BEBB282B352D57005AC0CF /* ValidParentheses(20).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidParentheses(20).swift"; sourceTree = "<group>"; };
+		62BEBB2A2B35334E005AC0CF /* RemoveDuplicates(26).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoveDuplicates(26).swift"; sourceTree = "<group>"; };
+		62BEBB2C2B353939005AC0CF /* RemoveElement(27).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoveElement(27).swift"; sourceTree = "<group>"; };
+		62BEBB2E2B353A7D005AC0CF /* FirstOcurrenceInString(28).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstOcurrenceInString(28).swift"; sourceTree = "<group>"; };
+		62BEBB302B353D04005AC0CF /* LengthOfLastWord(58).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LengthOfLastWord(58).swift"; sourceTree = "<group>"; };
+		62BEBB322B354204005AC0CF /* PlusOne(66).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlusOne(66).swift"; sourceTree = "<group>"; };
+		62BEBB342B35479F005AC0CF /* MergeSortedArray(88).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MergeSortedArray(88).swift"; sourceTree = "<group>"; };
+		62BEBB362B35561C005AC0CF /* SingleNumber(136).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SingleNumber(136).swift"; sourceTree = "<group>"; };
+		62BEBB382B355735005AC0CF /* AddDigits(258).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddDigits(258).swift"; sourceTree = "<group>"; };
+		62BEBB3A2B355BC7005AC0CF /* ValidAnagram(242).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidAnagram(242).swift"; sourceTree = "<group>"; };
+		62BEBB3C2B355C7A005AC0CF /* ReverseString(344).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReverseString(344).swift"; sourceTree = "<group>"; };
+		62BEBB3E2B356085005AC0CF /* DetectCapital(520).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetectCapital(520).swift"; sourceTree = "<group>"; };
+		62BEBB5F2B357C69005AC0CF /* GoatLatin(824).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoatLatin(824).swift"; sourceTree = "<group>"; };
+		62BEBB612B358122005AC0CF /* AddToArray(989).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddToArray(989).swift"; sourceTree = "<group>"; };
+		62BEBB632B35851D005AC0CF /* ConsecutiveCharacters(1446).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsecutiveCharacters(1446).swift"; sourceTree = "<group>"; };
+		62BEBB652B35889D005AC0CF /* WordAsAPrefix(1455).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordAsAPrefix(1455).swift"; sourceTree = "<group>"; };
+		62BEBB672B3589E2005AC0CF /* CountWordsWithPrefix(2185).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountWordsWithPrefix(2185).swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62BEBB0B2B34F577005AC0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62BEBB052B34F577005AC0CF = {
+			isa = PBXGroup;
+			children = (
+				62BEBB102B34F577005AC0CF /* Leetcode */,
+				62BEBB0F2B34F577005AC0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62BEBB0F2B34F577005AC0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62BEBB0E2B34F577005AC0CF /* Leetcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62BEBB102B34F577005AC0CF /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				62BEBB112B34F577005AC0CF /* main.swift */,
+				62BEBB222B34FB48005AC0CF /* TwoSum(1).swift */,
+				62BEBB242B34FCBF005AC0CF /* PalindromeNumber(9).swift */,
+				62BEBB262B34FE92005AC0CF /* LongestCommonPrefix(14).swift */,
+				62BEBB282B352D57005AC0CF /* ValidParentheses(20).swift */,
+				62BEBB2A2B35334E005AC0CF /* RemoveDuplicates(26).swift */,
+				62BEBB2C2B353939005AC0CF /* RemoveElement(27).swift */,
+				62BEBB2E2B353A7D005AC0CF /* FirstOcurrenceInString(28).swift */,
+				62BEBB302B353D04005AC0CF /* LengthOfLastWord(58).swift */,
+				62BEBB322B354204005AC0CF /* PlusOne(66).swift */,
+				62BEBB342B35479F005AC0CF /* MergeSortedArray(88).swift */,
+				62BEBB362B35561C005AC0CF /* SingleNumber(136).swift */,
+				62BEBB1C2B34F7AA005AC0CF /* CourseSchedule(207).swift */,
+				62BEBB1E2B34F7EC005AC0CF /* CourseScheduleII(210).swift */,
+				62BEBB3A2B355BC7005AC0CF /* ValidAnagram(242).swift */,
+				62BEBB382B355735005AC0CF /* AddDigits(258).swift */,
+				62BEBB3C2B355C7A005AC0CF /* ReverseString(344).swift */,
+				62BEBB3E2B356085005AC0CF /* DetectCapital(520).swift */,
+				62BEBB202B34F817005AC0CF /* FloodFill(733).swift */,
+				62BEBB1A2B34F73E005AC0CF /* PartitionLabels(763).swift */,
+				62BEBB5F2B357C69005AC0CF /* GoatLatin(824).swift */,
+				62BEBB612B358122005AC0CF /* AddToArray(989).swift */,
+				62BEBB182B34F6F6005AC0CF /* TwoCityScheduling(1029).swift */,
+				62BEBB632B35851D005AC0CF /* ConsecutiveCharacters(1446).swift */,
+				62BEBB652B35889D005AC0CF /* WordAsAPrefix(1455).swift */,
+				62BEBB672B3589E2005AC0CF /* CountWordsWithPrefix(2185).swift */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62BEBB0D2B34F577005AC0CF /* Leetcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BEBB152B34F577005AC0CF /* Build configuration list for PBXNativeTarget "Leetcode" */;
+			buildPhases = (
+				62BEBB0A2B34F577005AC0CF /* Sources */,
+				62BEBB0B2B34F577005AC0CF /* Frameworks */,
+				62BEBB0C2B34F577005AC0CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leetcode;
+			productName = Leetcode;
+			productReference = 62BEBB0E2B34F577005AC0CF /* Leetcode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62BEBB062B34F577005AC0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					62BEBB0D2B34F577005AC0CF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 62BEBB092B34F577005AC0CF /* Build configuration list for PBXProject "Leetcode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62BEBB052B34F577005AC0CF;
+			productRefGroup = 62BEBB0F2B34F577005AC0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BEBB0D2B34F577005AC0CF /* Leetcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62BEBB0A2B34F577005AC0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BEBB1D2B34F7AA005AC0CF /* CourseSchedule(207).swift in Sources */,
+				62BEBB682B3589E2005AC0CF /* CountWordsWithPrefix(2185).swift in Sources */,
+				62BEBB2F2B353A7D005AC0CF /* FirstOcurrenceInString(28).swift in Sources */,
+				62BEBB192B34F6F6005AC0CF /* TwoCityScheduling(1029).swift in Sources */,
+				62BEBB3B2B355BC7005AC0CF /* ValidAnagram(242).swift in Sources */,
+				62BEBB252B34FCBF005AC0CF /* PalindromeNumber(9).swift in Sources */,
+				62BEBB602B357C69005AC0CF /* GoatLatin(824).swift in Sources */,
+				62BEBB212B34F817005AC0CF /* FloodFill(733).swift in Sources */,
+				62BEBB2D2B353939005AC0CF /* RemoveElement(27).swift in Sources */,
+				62BEBB352B35479F005AC0CF /* MergeSortedArray(88).swift in Sources */,
+				62BEBB312B353D04005AC0CF /* LengthOfLastWord(58).swift in Sources */,
+				62BEBB392B355735005AC0CF /* AddDigits(258).swift in Sources */,
+				62BEBB2B2B35334E005AC0CF /* RemoveDuplicates(26).swift in Sources */,
+				62BEBB642B35851D005AC0CF /* ConsecutiveCharacters(1446).swift in Sources */,
+				62BEBB272B34FE92005AC0CF /* LongestCommonPrefix(14).swift in Sources */,
+				62BEBB332B354204005AC0CF /* PlusOne(66).swift in Sources */,
+				62BEBB232B34FB48005AC0CF /* TwoSum(1).swift in Sources */,
+				62BEBB3D2B355C7A005AC0CF /* ReverseString(344).swift in Sources */,
+				62BEBB292B352D57005AC0CF /* ValidParentheses(20).swift in Sources */,
+				62BEBB622B358122005AC0CF /* AddToArray(989).swift in Sources */,
+				62BEBB1F2B34F7EC005AC0CF /* CourseScheduleII(210).swift in Sources */,
+				62BEBB1B2B34F73E005AC0CF /* PartitionLabels(763).swift in Sources */,
+				62BEBB122B34F577005AC0CF /* main.swift in Sources */,
+				62BEBB662B35889D005AC0CF /* WordAsAPrefix(1455).swift in Sources */,
+				62BEBB3F2B356085005AC0CF /* DetectCapital(520).swift in Sources */,
+				62BEBB372B35561C005AC0CF /* SingleNumber(136).swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62BEBB132B34F577005AC0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62BEBB142B34F577005AC0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		62BEBB162B34F577005AC0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6QF5VZUBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		62BEBB172B34F577005AC0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6QF5VZUBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62BEBB092B34F577005AC0CF /* Build configuration list for PBXProject "Leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BEBB132B34F577005AC0CF /* Debug */,
+				62BEBB142B34F577005AC0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BEBB152B34F577005AC0CF /* Build configuration list for PBXNativeTarget "Leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BEBB162B34F577005AC0CF /* Debug */,
+				62BEBB172B34F577005AC0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62BEBB062B34F577005AC0CF /* Project object */;
+}
